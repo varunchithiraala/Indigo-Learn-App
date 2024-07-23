@@ -1,0 +1,82 @@
+.choose-us-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.choose-us-heading {
+  text-align: center;
+  color: #131313;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.underline {
+  width: 16%;
+  height: 4px;
+  background-color: #330066;
+  margin: 1rem auto;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 786px) {
+  .underline {
+    width: 8%;
+  }
+}
+  
+@media screen and (min-width: 1200px) {
+  .learn-in-acca-card {
+    height: 20rem;
+  }
+}
+  
+.choose-us-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-us-card {
+  background-color: #e6f2ff;
+  padding: 2rem;
+  margin: 1rem;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .choose-us-card{
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+}
+  
+.choose-us-card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #6600cc;
+}
+  
+.choose-us-card-title {
+  color: #330066;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.choose-us-card-text {
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+  .choose-us-card-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,36 @@
+.placement-container {
+  background-color: #ffe6ea;
+  padding: 1rem 2rem;
+}
+
+.underline {
+  width: 16%;
+  height: 4px;
+  background-color: #330066;
+  margin: 1rem auto;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 786px) {
+  .underline {
+    width: 8%;
+  }
+}
+
+.placement-heading {
+  text-align: center;
+  color: #131313;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.placement-title {
+  color: #131313;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.placement-description {
+  color: #000000;
+  font-size: 1rem;
+}

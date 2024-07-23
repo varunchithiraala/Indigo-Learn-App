@@ -1,0 +1,142 @@
+.header {
+  background-color: #330066;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+  
+.desktop-header, .mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 786px) {
+  .mobile-header {
+    display: none;
+  }
+  .desktop-header {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .desktop-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+  }
+}
+  
+.company-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+@media screen and (min-width: 992px) {
+  .company-name {
+    margin-left: 2.5rem;
+  }
+}
+
+.desktop-nav-link {
+  color: #ffffff;
+  margin: 0.5rem 1rem;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-nav-link {
+    margin: 0.5rem;
+  }
+}
+
+.bold-nav-link {
+  font-weight: bold;
+}
+
+.mobile-company-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.nav-link .current-page {
+  font-weight: bold;
+  margin-bottom: 2px solid #ffffff;
+}
+
+.user-icon {
+  color: #ffffff;
+  background-color: #330066;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+
+.user-container {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .user-container {
+    margin-right: 2.5rem;
+  }
+}
+
+.login-signup-button {
+  color: #330066;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: none;
+}
+
+.login-signup-button:hover {
+  text-decoration: underline;
+}
+
+.icon-company-name {
+  display: flex;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.mobile-menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #330066;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav-menu .nav-link {
+  margin: 0.5rem 0;
+  font-weight: normal;
+  text-align: left;
+}

@@ -1,0 +1,47 @@
+.eligibility-card-deck {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.eligibility-card {
+  background-color: #fafafa;
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  width: 70%;
+  flex: 1;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  border-top: 4px solid #6600cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eligibility-card-title {
+  color: #330066;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.eligibility-card-icon-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.eligibility-card-icon {
+  color: #131313;
+}
+
+.eligibility-card-text {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .eligibility-card-deck {
+    flex-direction: column;
+  }
+}

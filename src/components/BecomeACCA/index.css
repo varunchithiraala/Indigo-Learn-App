@@ -1,0 +1,138 @@
+.become-acca-container {
+  background-color: #e6f2ff;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .become-acca-container {
+    padding: 4rem;
+  }
+}
+
+.become-acca-heading {
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .become-acca-heading {
+    margin-top: 0.5rem;
+  }
+}
+
+.become-acca-description {
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .become-acca-description {
+    width: 85%;
+  }
+}
+
+.card-details-deck {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-details-container {
+  background: #e6f2ff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media screen and (max-width: 767px) {
+  .card-details-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-icon-title-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .card-icon-title-container {
+    justify-content: center;
+  }
+}
+
+.become-acca-card-icon {
+  color: #333333;
+  font-size: 1.3rem;
+  margin-top: 0.1rem;
+}
+
+.become-acca-card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-left: 0.5rem;
+}
+
+.become-acca-card-text {
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.delete-start-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.download-btn {
+  color: #ffffff;
+  background-color: #330066;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  outline: none;
+}
+
+.download-btn:hover {
+  background-color: #6600cc;
+}
+
+.start-btn {
+  color: #ffffff;
+  background-color: #ff1a1a;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  outline: none;
+  display: flex;
+}
+
+.start-btn:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 768px) {
+  .card-deck {
+    flex-direction: column;
+  }
+}
+
+.begin {
+  height: 100%;
+  border: 1px solid #fafafa;
+  padding: 0.5rem 0.3rem;
+  margin-left: 0.5rem;
+}
